@@ -1,6 +1,7 @@
 # if
 
 # ex.1
+'''
 weather = input("how is the weather?")
 
 if weather == "rain":
@@ -9,9 +10,10 @@ elif weather == "dust":
     print("Take a mask.")
 else:
     print("That's OK")
+'''
 
 # ex.2
-
+'''
 temp=int(input("What's the temperature like?"))
 
 if temp >= 30:
@@ -22,3 +24,4 @@ elif temp>=0 and temp <10:
     print("Take a coat")
 else:
     print("So cold") 
+'''

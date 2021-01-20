@@ -17,6 +17,91 @@ Rule 2: The total amount of chicken
 Rule 3: Generate a custom error [SoldOutError] 
         when chicken is exhausted and exit the program.
 '''
+# Anser)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example)
+'''
 # custom error
 class SoldOutError(Exception):
     def __init__(self,msg):
@@ -59,3 +144,4 @@ while True:
     except SoldOutError as err:
         print(err)
         break
+'''

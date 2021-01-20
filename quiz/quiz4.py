@@ -26,8 +26,91 @@ print(lst)
 print(sample(lst,1))
 '''
 
-### Create my own ###
+# Anser)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example)
+'''
 from random import *
 
 # create things 1~20
@@ -44,3 +127,4 @@ print("--Winner announcement--")
 print("chicken:{0}".format(winners[0]))
 print("coffee:{0}".format(winners[1:]))
 print("  -Congratulations !-")
+'''

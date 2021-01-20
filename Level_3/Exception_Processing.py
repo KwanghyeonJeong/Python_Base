@@ -1,4 +1,5 @@
-
+# Exception process
+'''
 try:
     print("Divide Only Calculator")
     nums=[]
@@ -13,3 +14,4 @@ except ZeroDivisionError as err:
 except Exception as err:
     print("Error ! I don't know..")
     print(err)
+'''

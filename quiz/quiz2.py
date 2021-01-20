@@ -9,10 +9,94 @@
 # (print example)
 # The offline study meeting date was selected as the x day of each month.
 
+# Anser)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example)
+'''
 #use random module
 from random import *
 #Create a meeting date randomly between the 4th and 28th
 d_day = randint(4,28) # 4~28
 print("The offline study meeting date was selected as the",d_day,"day of each month.")
-
-
+'''

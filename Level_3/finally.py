@@ -17,6 +17,8 @@ except BigNumberError as err:
     print(err)
 
 # Regardless of whether it's an error or not, it's always do last.
+'''
 finally:
     print("Thank you~!")
+'''
     

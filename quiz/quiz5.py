@@ -8,9 +8,92 @@ Rule 1: The travel time per passenger is determined by random numbers between 5 
 Rule 2: You should only match passengers between 5 and 15 minutes of time.
 
 '''
+# Anser)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example)
+'''
 from random import *
-
 cnt = 0
 mark = 'O'
 # i : 1~50
@@ -19,9 +102,10 @@ for i in range(1,51):
     time = randrange(1,51)
     if 5 <= time <= 15:
         mark = 'O'
-        print("[{0}] {1}번째 손님 (소요시간: {2}분)".format(mark,i,time))
+        print("[{0}] {1}passengers (required: {2}min)".format(mark,i,time))
         cnt += 1
     else:
         mark = ' '
-        print("[{0}] {1}번째 손님 (소요시간: {2}분)".format(mark,i,time))
-print("총 탑승승객은 {0}명 입니다.".format(cnt))
+        print("[{0}] {1}passengers (required: {2}min)".format(mark,i,time))
+print("The number of passengers is {0}.".format(cnt))
+'''

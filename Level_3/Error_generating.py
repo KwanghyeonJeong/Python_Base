@@ -1,3 +1,5 @@
+# Error generating
+'''
 try:
     print("Divide by one digit only")
     num1 = int(input("first num: "))
@@ -7,3 +9,4 @@ try:
     print("{0} / {1} = {2}".format(num1,num2,int(num1/num2)))
 except ValueError:
     print("Error!")
+'''

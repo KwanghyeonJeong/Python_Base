@@ -1,8 +1,8 @@
-gun = 10
-
+# Situation: Military Gun Management
+gun = 10 # global
 def checkpoint(soldiers):
     # gun init
-    gun=20
+    gun=20 # region
     gun = gun - soldiers
     print("[in function]: {0}".format(gun))
 
@@ -17,13 +17,14 @@ def checkpoint_ret (gun,soldiers):
     #return
     return gun
 
+'''
 print("guns: {0}".format(gun))
-
 checkpoint(2)
 All_check(4)
 print("guns: {0}".format(gun))
 
 gun = checkpoint_ret(gun,2)
 print("guns: {0}".format(gun))
+'''
 
 

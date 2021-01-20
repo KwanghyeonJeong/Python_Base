@@ -5,6 +5,8 @@ class BigNumberError(Exception):
     def __str__(self):
         return self.msg
 
+# example
+'''
 try:
     print("Divide by one digit only")
     num1 = int(input("first num: "))
@@ -15,3 +17,4 @@ try:
 except BigNumberError as err:
     print("Error!")
     print(err)
+'''

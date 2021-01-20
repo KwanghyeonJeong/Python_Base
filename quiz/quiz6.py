@@ -11,7 +11,91 @@ Rule 2: Standard weight displayed to second decimal place
 (example)
 A 175cm tall man's standard weigh is 67.38kg.
 '''
+# Anser)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example)
+'''
 #gendar: "man" or "woman"
 def std_weight(height,gender):
     if (gender == "man"):
@@ -27,7 +111,4 @@ height = int(input("how tall are you?"))
 weight = round(std_weight(height/100,gender),2)
 
 print("A {0}cm tall man's standard weight is {1}kg.".format(height,weight))
-
-
-
-
+'''

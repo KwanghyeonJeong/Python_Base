@@ -1,4 +1,10 @@
+# import
 from random import *
+
+# Simulate textual StarCraft games
+'''
+'''
+
 # Python - class Unit
 class Unit:
     # __init__ : automatic calling
@@ -113,7 +119,7 @@ def game_over():
     print("[Player] is game over")
 
 # game start
-
+'''
 game_start()
 
 m1 = Marine()
@@ -156,4 +162,5 @@ for unit in attack_units:
     unit.damaged(randrange(5,21))
 
 game_over()
+'''
 

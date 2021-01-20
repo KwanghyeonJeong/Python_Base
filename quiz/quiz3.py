@@ -7,8 +7,91 @@
 # +   The number of 'e's in the letter(1)
 # +   '!'
 
-### Create my own ###
+# Anser)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################
+# Example.1)
+'''
 #url
 url="http://google.com"
 
@@ -37,14 +120,10 @@ Password=Password+str(Password_Num)+str(Password_Num2)+'!'
 
 # print Password
 print(Password)
+'''
 
-
-#################################################################
-
-
-
-### A model answer ###
-
+# Example.2)
+'''
 url = "http://google.com"
 # Rule 1
 my_str = url.replace("http://", "")
@@ -57,7 +136,7 @@ my_str=my_str[:my_str.index('.')]
 Password = my_str[:3] + str(len(my_str)) + str(my_str.count('e')) + '!'
 print("{0} 의 비밀번호는 {1}입니다.".format(url,Password))
 
-
+'''
 
 
 
