@@ -1,13 +1,19 @@
 # Python_Base
 
-## Use Visual Studio Code
+These codes were collected for Python basic grammar research.
 
-### Download Extensions:
+### Requirements
+- **Python ver. 3.8.6:**
+  
+  Download the default path (C drive) from Python 3.8.6 to use the JSON file in .vscode without changing it. 
 
-### Python, Python Extension Pack, Python for VSCode, Code Runner
+- **Visual Studio Code**
 
-### Python ver. 3.8.6
+- **Visual Studio Code Extensions:**
 
-Download the default path (C drive) from Python 3.8.6 to use the JSON file in .vscode without changing it. 
+  Python, Python Extension Pack, Python for VSCode, Code Runner
+  
+- OS:
 
-The operating system is based on the Windows 10 series.
+  Windows 10.0 or late
+
